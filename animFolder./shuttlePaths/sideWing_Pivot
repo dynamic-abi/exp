@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+              "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="23.8889in" height="15in"
+     viewBox="0 0 1720 1080">
+  <path id="sideWingPivot"
+        fill="none" stroke="black" stroke-width="1"
+        d="M 804.72,595.41
+           C 804.72,595.41 804.76,648.08 804.76,648.08
+             804.76,648.08 1082.38,648.09 1082.38,648.09
+             1112.58,647.43 1107.97,594.91 1082.66,595.47
+             1082.66,595.47 804.72,595.41 804.72,595.41 Z" />
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+              "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="26.6667in" height="27.5in"
+     viewBox="0 0 1920 1980">
+  <path id="LeftThruster_vent1"
+        fill="none" stroke="black" stroke-width="1"
+        d="M 834.41,644.39
+           C 834.41,644.39 849.64,699.36 849.64,699.36
+             851.76,706.99 873.12,704.57 870.73,696.73
+             870.73,696.73 856.42,649.28 856.42,649.28
+             856.42,649.28 834.41,644.39 834.41,644.39 Z" />
+</svg>

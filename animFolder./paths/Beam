@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+              "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="26.6667in" height="15in"
+     viewBox="0 0 1920 1080">
+  <path id="Beam"
+        fill="none" stroke="black" stroke-width="1"
+        d="M 932.36,727.89
+           C 932.36,727.89 822.00,829.00 822.00,829.00
+             822.00,829.00 1090.33,829.67 1090.33,829.67
+             1090.33,829.67 977.61,728.00 977.61,728.00
+             977.61,728.00 932.36,727.89 932.36,727.89 Z" />
+</svg>

@@ -1,0 +1,686 @@
+/*Variables*/
+
+#darkBlueBeam-vars{
+    --xOffset: 10;
+}
+
+#header-shape-gradient {
+    --color-stop: #098300;
+    --color-bot: #036606;
+    --color-boom: #3caa40;
+}
+
+#beam-shape-gradient {
+
+    --color-stop: red;
+    --color-bot: blue;
+    --color-boom: yellow;
+}
+
+
+
+
+
+
+
+
+
+#mainSVGContainer {
+    width: 50%;
+    float: left;
+    z-index: -1;
+    
+   
+}
+
+
+
+#mainSVGContainer {
+
+    border: 2px solid blue;
+    float: left;
+    z-index: -1;
+}
+
+
+.BUZZ_G{
+    float: left;
+    z-index: -1;
+    
+}
+
+
+/*This style handles the initial shaking as well as the infinite hovering*/
+.BUZZ_G_ACTIVE_SHAKE{
+
+    animation-name: buzzShake1, buzzShake2, buzzShake3, buzzHoverInfinite;
+    animation-delay: 0.07s, 0.90s, 1.10s, 2.25s;
+    animation-duration: 0.85s, 1s, 1.2s, 5s;
+    animation-timing-function: linear, linear, linear, linear;
+    animation-iteration-count: 1, 1, 1, infinite;
+    
+    animation-direction: normal, normal, normal, normal;
+    animation-fill-mode: forwards, forwards, forwards, forwards;
+
+    transform-origin: 50% 50%;
+}
+
+
+@keyframes buzzShake1 {
+
+    0%{
+        transform: translateX(0px);
+    }
+
+    15%{
+        transform: translateX(10px) translateY(-10px) rotateZ(8deg);
+
+    }
+
+
+
+    100%{
+        transform: translateX(2px) translateY(-20px) rotateZ(0deg);
+    }
+    
+}
+
+@keyframes buzzShake2 {
+
+    0%{
+        /*transform: translateY(10px); */
+        transform: translateX(8px) translateY(-10px) rotateZ(5deg);
+    }
+
+    15%{
+        transform: translateX(-10px) translateY(-20px) rotateZ(-5deg);
+    }
+
+    
+    
+
+    100%{
+
+      /*  transform: translateY(50px); */
+    transform: translateX(-12px) translateY(-22px) rotateZ(-5deg);
+    }
+    
+}
+
+@keyframes buzzShake3 {
+
+    0%{
+        transform: translateX(-12px) translateY(-22px) rotateZ(-5deg);
+    }
+
+
+    100%{
+
+        transform: translateX(0px) translateY(0px) rotateZ(0deg);
+    }
+    
+}
+
+@keyframes buzzHoverInfinite {
+
+    0%{
+        
+        transform: translateX(0px) translateY(0px) rotateZ(0deg);
+    }
+
+    
+        20%{
+            transform: translateX(0px) translateY(-13px) rotateZ(-1.2deg);
+        }
+
+
+    25%{
+        
+        transform: translateX(-2px) translateY(-14px) rotateZ(-1.5deg);
+    }
+
+
+
+        30%{
+            transform: translateX(0px) translateY(-13px) rotateZ(-1.2deg);
+
+        }
+
+
+
+      
+
+        
+       
+
+    50%{
+        
+        transform: translateX(0px) translateY(0px) rotateZ(0deg);
+    }
+
+        
+
+       
+
+        70%{
+            transform: translateX(4px) translateY(-9px) rotateZ(1.3deg);
+        }    
+
+
+    75%{
+       
+        transform: translateX(5px) translateY(-11px) rotateZ(1.5deg);
+    }
+
+        80%{
+            transform: translateX(4px) translateY(-9px) rotateZ(1.3deg);
+        }
+
+        
+
+    100%{
+        
+        transform: translateX(0px) translateY(0px) rotateZ(0deg);
+    }
+    
+}
+
+
+
+
+
+.LEFTWING_SVG {
+    transform: rotateZ(30deg);
+}
+
+.LEFTWING_G {
+    
+    border: 2px solid palegreen;
+    transform-origin: 50% 40%;
+    transform: rotateZ(-60deg) 
+                translateX(0px)
+                translateY(100px)
+                scale(0.5, 0.5);
+                
+}
+
+
+.LEFTWING_CHILD_G{
+
+    transform-origin: 40% 30%;
+    transform: translateX(500px); 
+
+}
+
+
+.LeftWing_Parent {
+    border: 2px solid purple;
+}
+
+.LeftWing_Parent_Active {
+    animation-name: leftParentWingTurn;
+    animation-duration: 0.15s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+    transform-origin: 50% 40%;
+
+}
+
+@keyframes leftParentWingTurn {
+
+    0% {
+        transform: rotateZ(-60deg) translateY(100px) scale(0.5, 0.5);
+    }
+
+
+    100% {
+        transform: rotateZ(0deg) translateY(0px) scale(1, 1);
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.LeftWing_Child {
+    border: 2px solid purple;
+}
+
+.LeftWing_Child_Active {
+    animation-name: leftChildWingTurn;
+    animation-delay: 0.85s;
+    animation-duration: 0.1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+    transform-origin: 40% 30%;
+}
+
+
+
+@keyframes leftChildWingTurn {
+
+    0% {
+        /*   transform: rotateZ(0deg); */
+        transform: translateX(500px);
+    }
+
+
+    100% {
+        /*   transform: rotateZ(-80deg) translateX(12%); */
+        transform: translateX(0px);
+
+
+
+    }
+
+}
+
+
+.RIGHTWING_G{
+    transform-origin: 50% 50%;
+transform: rotateZ(60deg)
+ translateY(-100px)
+ 
+  scale(0.3, 0.3);
+
+}
+
+
+.RIGHTWING_CHILD_G{
+    transform-origin: 40% 30%;
+    transform: translateX(-500px);
+
+}
+
+
+
+.RightWing_Parent_Active{
+
+    animation-name: rightParentWingTurn;
+    animation-duration: 0.15s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    
+   
+
+}
+
+
+@keyframes rightParentWingTurn {
+
+    0% {
+        transform: rotateZ(60deg) translateY(-100px) scale(0.3, 0.3);
+    }
+
+
+    100% {
+        transform: rotateZ(0deg) translateY(0px) scale(1, 1);
+
+    }
+
+}
+
+
+.RightWing_Child_Active{
+    animation-name: rightChildWingTurn;
+    animation-delay: 0.85s;
+    animation-duration: 0.1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+    
+
+}
+
+
+@keyframes rightChildWingTurn {
+
+    0% {
+        /*   transform: rotateZ(0deg); */
+        transform: translateX(-500px);
+    }
+
+
+    100% {
+        /*   transform: rotateZ(-80deg) translateX(12%); */
+        transform: translateX(0px);
+
+
+
+    }
+
+}
+
+
+
+
+
+
+
+#gradient1 {
+    background-color: radial-gradient(circle, rgba(176, 255, 151, 1) 0%, rgba(23, 149, 0, 1) 100%);
+    ;
+}
+
+
+
+
+
+
+
+
+#RightShield {
+    stroke: black;
+    stroke-width: 2px;
+    fill: url(#header-shape-gradient) #fff;
+
+}
+
+
+#LeftShield1 {
+    stroke: red;
+
+
+}
+
+
+
+
+
+
+#LeftWing_Parent_StripeContainer_StripesActualContainer {
+
+    fill: url(#wing-stripes);
+}
+
+
+#LeftWing_Child_StripContainer_ActualStripesContainer{
+    fill: url(#wing-stripes);
+}
+
+
+
+
+#RightWing_Child_StripContainer_ActualStripesContainer{
+    fill: url(#wing-stripes);
+}
+
+#RightWing_Parent_StripeContainer_StripesActualContainer{
+    fill: url(#wing-stripes);
+}
+
+
+.BuzzLightyear_ContentSection_HIDDEN{
+    display: none;
+}
+
+
+
+.BuzzLightyear_ContentSection{
+
+    animation-name: buzzContentSectionExpandAnim;
+        animation-delay: 0s;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+
+
+
+    overflow: hidden;
+
+
+    border: 2px solid greenyellow;
+    width: 0%;
+    display: block;
+    margin-top: -5px;
+    margin-left: 2%;
+    background-color: #036900;
+    border-radius: 25px 10px 25px 10px;
+    position: relative;   
+}
+
+
+.BuzzLightyear_ContentSection_HeadingBox{
+    font-family: 'Courier New', Courier, monospace;
+    border: 3px solid yellowgreen;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 40%;
+    height: 35px;
+    line-height: 0px;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: black;
+    color: yellowgreen;
+}
+
+.BuzzLightyear_ImageFlexBox{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.BuzzLightyear_ImageFlexBox .BuzzLightyear_ImageFlexBox_ImageContainer{
+
+    border: 2px solid greenyellow;
+        display: block;
+    
+    width: 100%;
+    
+        border-radius: 10px 5px 10px 5px;
+        margin-top: 10px;
+        overflow: hidden;
+    margin-right: 5px;
+    margin-left: 5px;
+   align-content:space-around;     
+}
+
+
+
+.BuzzLightyear_ContentSection_Textbox{
+
+    border: 2px solid #c20067;
+    width: 86%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px 5px 10px 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    background-color: #4a0036;
+    
+    
+}
+
+
+@keyframes buzzContentSectionExpandAnim {
+
+    0%{
+        width: 0%;
+        opacity: 0%;
+    }
+
+    100%{
+        width: 182%;
+        opacity: 100%;
+        
+    }
+    
+}
+
+
+
+.BuzzBeamDiv{
+
+    margin-left: 45%;    
+    height: 0px;
+    width: 20px;
+    margin-top: -10%;
+    background-color: blue;
+    border-top: 0px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 80px solid orange;
+    border-left: 50px solid transparent;
+}
+
+
+.BEAM_G{
+    width: 100%;
+    height: 100%;
+    
+    border: 2px solid red;
+    
+    z-index: -1;
+}
+
+
+
+.BEAM_G_Active {
+    width: 100%;
+    height: 100%;
+
+    
+
+    border: 2px solid red;
+  
+
+    animation-name: beamActivate, beamActivate2, beamOpacityFluctuate;
+    animation-delay: 0s, 0s, 0s;
+    animation-duration: 1s, 1s, 1s;
+    animation-timing-function:linear, linear, linear;
+    animation-iteration-count: infinite, infinite, infinite;
+
+    animation-direction: normal, normal, normal;
+    animation-fill-mode: forwards, forwards, forwards;
+
+}
+
+
+@keyframes beamActivate {
+
+    0%{
+        
+        fill: url(darkBlueBeam-vars);
+       
+       
+    }
+
+    33%{
+      
+        fill: url(#beamPattern2_5);
+        
+    }
+    /**
+    40%{
+        fill: url(#beamPattern2);
+    }
+
+    60%{
+        fill: url(#beamPattern2_5);
+    }
+    */
+    66%{
+        
+        fill: url(#beamPattern3);
+        
+    }
+
+    100%{
+        fill: url(#beamPattern);
+        
+    }
+
+
+    
+}
+
+@keyframes beamActivate2 {
+
+    0% {
+
+        fill: url(#beamBackingPattern);
+
+
+    }
+
+    33% {
+
+        fill: url(#beamBackingPattern2_5);
+
+    }
+
+    /**
+    40%{
+        fill: url(#beamPattern2);
+    }
+
+    60%{
+        fill: url(#beamPattern2_5);
+    }
+    */
+    66% {
+
+        fill: url(#beamBackingPattern3);
+
+    }
+
+    100% {
+        fill: url(#beamBackingPattern);
+
+    }
+
+
+
+}
+
+
+
+@keyframes beamOpacityFluctuate {
+
+    0%{
+        opacity: 40%;
+    }
+
+    50%{
+        opacity: 80%;
+    }
+
+
+    100%{
+        opacity: 40%;
+    }
+    
+}
+
+
+
+

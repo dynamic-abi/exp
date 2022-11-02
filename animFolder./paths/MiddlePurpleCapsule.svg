@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+              "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="26.6667in" height="15in"
+     viewBox="0 0 1920 1080">
+  <path id="MiddlePurpleCapsule"
+        fill="none" stroke="black" stroke-width="1"
+        d="M 927.36,498.27
+           C 927.46,469.98 980.28,467.48 980.18,497.91
+             980.18,497.91 973.88,644.00 973.88,644.00
+             969.15,671.75 933.40,658.18 935.75,644.38
+             935.75,644.38 927.36,498.27 927.36,498.27 Z" />
+</svg>

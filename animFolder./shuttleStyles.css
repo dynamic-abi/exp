@@ -1,0 +1,104 @@
+
+
+
+
+
+
+
+#ShuttleActualSVGTag {
+    margin-left: -200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.SHUTTLE_SIDEWING_G_ACTIVE{
+
+    animation-name: shuttle_sideWingTurn;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+    transform-origin: 50% 58%;
+
+
+}
+
+
+@keyframes shuttle_sideWingTurn {
+
+    0%{
+        transform: rotateX(0deg);
+    }
+
+
+    100%{
+
+        transform: rotateX(180deg);
+    }
+
+
+    
+}
+
+#underside_sideWing_shortEdge{
+    fill: grey;
+    
+}
+
+
+.SHUTTLE_UNDERSIDE_SIDEWING_G{
+
+    visibility: hidden;
+}
+
+.SHUTTLE_UNDERSIDE_SIDEWING_G_ACTIVE{
+
+    animation-name: shuttle_underside_sideWingTurn;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    
+    transform-origin: 50% 58%;
+
+    visibility: hidden;
+}
+
+
+@keyframes shuttle_underside_sideWingTurn {
+
+    0%{
+        transform: rotateX(0deg);
+    }
+
+
+    50%{
+        visibility: hidden;
+    }
+
+    51%{
+        visibility: visible;
+
+    }
+
+
+    100%{
+        transform: rotateX(180deg);
+        visibility: visible;
+    }
+    
+}

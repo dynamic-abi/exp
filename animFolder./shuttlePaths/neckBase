@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+              "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="23.8889in" height="15in"
+     viewBox="0 0 1720 1080">
+  <path id="neckBase"
+        fill="none" stroke="black" stroke-width="1"
+        d="M 763.58,616.73
+           C 763.58,616.73 695.73,638.18 695.73,638.18
+             695.73,638.18 803.83,638.11 803.83,638.11
+             803.83,638.11 803.84,631.96 803.84,631.96
+             803.84,631.96 798.12,631.97 798.12,631.97
+             798.12,631.97 763.58,616.73 763.58,616.73 Z" />
+</svg>

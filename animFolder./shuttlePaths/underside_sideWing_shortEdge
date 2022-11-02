@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+              "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="23.8889in" height="15in"
+     viewBox="0 0 1720 1080">
+  <path id="underside_sideWing_shortEdge"
+        fill="none" stroke="black" stroke-width="1"
+        d="M 954.80,1014.67
+           C 954.80,1014.67 951.02,1022.31 951.02,1022.31
+             951.02,1022.31 1081.96,1022.22 1081.96,1022.22
+             1081.96,1022.22 1081.97,1014.69 1081.97,1014.69
+             1081.97,1014.69 954.80,1014.67 954.80,1014.67 Z" />
+</svg>
