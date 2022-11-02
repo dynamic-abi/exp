@@ -1,0 +1,517 @@
+
+
+
+
+
+
+
+/*START OF CGI PAGE STYLES*/
+
+
+@media only screen and (max-width: 1100px){
+
+  
+
+
+
+}
+
+
+@media only screen and (min-width: 1100px){
+
+ .BL_JetpackContainer{
+  
+  width: 750px;
+
+  height: 500px;
+ 
+  aspect-ratio: 2/1;
+  border: 2px solid blue;
+  position: relative;
+  margin-bottom: 200px;
+ 
+ }
+
+
+ #buzzBaseSVGContainer{
+  border: 2px dashed yellow;
+  width: 90%;;
+  height: 50%;
+ 
+ }
+
+ #BL_JetpackBaseDiv{
+ 
+  margin-left: 140px;
+  border: 2px solid lawngreen;
+  z-index: 2;
+ }
+
+ 
+ 
+ #BL_JetpackBaseDiv{
+  position: absolute;
+  border: 2px solid orchid;
+
+ }
+
+
+
+
+
+.BL_WingsDiv{
+
+  margin-left: -175px;;
+  margin-top: -75px;
+
+
+  transform-origin: 490px 180px;
+  transform: rotateZ(-72deg);
+
+  z-index: 1;
+
+}
+
+.BL_WingsDivAnimToggle{
+
+  
+  margin-left: -175px;  
+  margin-top: -75px;
+ /* transform-origin: 60% 70%;*/
+  transform-origin: 490px 180px;
+  animation-name: wingsDivPopOut;
+  animation-duration: 0.18s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+
+  
+
+}
+
+
+
+
+
+
+
+#BLWingsDiv_ParentWingDiv{
+  position: absolute;
+
+
+}
+
+
+#buzzWingsParentSVGContainer{
+  border: 2px dashed orange;
+    
+    
+    
+}
+
+
+
+.BLWingsDiv_ChildWingDiv{
+  position: relative;
+  
+  position: absolute;
+  margin-left: 110px;
+  margin-top: -35px;
+
+}
+
+.BLWingsDiv_ChildWingDiv_AnimVersion{
+  position: relative;
+  
+  position: absolute;
+  margin-left: 110px;
+  margin-top: -35px;
+
+  animation-name: childWingDivExtend;
+  animation-duration: 0.07s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 0.8s;
+
+}
+
+
+
+
+#buzzWingsChildSVGContainer{
+
+  border: 2px dashed turquoise;
+
+
+  
+}
+
+
+
+ 
+/*Start of Trigger Styles*/
+
+
+/*End of Trigger Styles*/
+
+
+  
+
+
+
+
+
+ /*Start of Buzz Lightyear Wing Animations*/
+
+  @keyframes wingsDivPopOut {
+
+    0%{
+      
+      transform: rotateZ(-72deg);
+    }
+
+
+    100%{
+      transform: rotateZ(0deg);
+    }
+    
+  }
+
+
+  @keyframes childWingDivExtend {
+
+    0%{
+      margin-left: 110px;
+        margin-top: -35px;
+    }
+
+
+    100%{
+      margin-left: 0px;
+        margin-top: 0px;
+
+    }
+    
+  }
+
+
+ /*End of Buzz Lightyear Wing Animations*/
+
+
+  /*AT ST Styles*/
+
+
+  #ATSTSection{
+    margin-top: 5px;
+    width: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: 2px solid red;
+    float: right;
+  }
+
+  #ATSTSection_HeadingDiv{
+    border: 2px solid slategrey;
+    background-color: slategrey;
+    width: 90%;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-bottom: 2px;
+    overflow: hidden;
+  }
+
+  #ATSTSection_HeadingDiv_TitleDiv{
+    border: 2px solid purple;
+      width: 78%;
+      height: 65px;
+      background: black;
+      margin: auto;
+  }
+
+  #ATSTSection_HeadingDiv_TitleDiv_h1Box{
+    border: 2px solid red;
+      background-color: #3b3b3b;
+      
+      width: 60%;
+      
+      height: 50px;
+    
+      margin-top: 2.5px;
+      margin-left: auto;
+      margin-right: auto;
+
+  }
+
+  #ATSTSection_HeadingDiv_TitleDiv_h1Box h1{
+
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 10px;
+    
+    text-align: center; 
+
+
+  }
+
+
+
+
+    .ATSTSection_imageDiv {
+      border: 3px solid purple;
+      width: 98%;
+      margin: auto;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      overflow: hidden;
+  
+    }
+
+    .ATSTSection_imageDiv img {
+      width: 100%;
+    }
+
+
+
+
+    #FunnyFifteenMovieSection{
+      border: 2px solid orange;
+      float: left;
+      width: 47%;
+      margin-left: 10px;
+      background-color: #703002;
+    }
+
+
+    #FunnyFifteenMovieSection_TitleDiv{
+      border: 4px ridge brown;
+      width: 97%;
+      display: block;
+      margin: auto;
+     /* background-color: #deb83c; */
+      background: radial-gradient(#e0c646, #edd661);
+    }
+
+    #FunnyFifteenMovieSection_TitleDiv_TextDiv{
+      border: 2px solid black;
+      margin: 5px;
+    }
+
+    #FunnyFifteenMovieSection_TitleDiv_TextDiv h1{
+      color: black;
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      
+    }
+
+    #FunnyFifteenMovieSection_TitleDiv_TextDiv p{
+     
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: black;
+      margin: 10px;
+      font-size: 0.9em;
+      
+    }
+
+
+
+
+    #FunnyFifteenMovieSection_VideoDiv{
+     
+    /*  background: radial-gradient(#a64500, #823701);*/
+      background-color: #703002;
+      width: 97%;
+      display: block;
+      margin: auto;
+    }
+
+    #FunnyFifteenMovieSection_VideoDiv video{
+      width: inherit;
+      border: 7px groove brown;
+      display: block;
+      margin: auto;
+    }
+
+
+
+
+
+
+
+    #FiveSevenHandgunSection{
+      margin-top: 5px;
+        width: 50%;
+        margin-right: 10px;
+        margin-top: 10px;
+        border: 2px solid red;
+        float: right;
+    }
+
+    #FiveSevenHandgunSection_HeadingDiv{
+      border: 2px solid slategrey;
+        background-color: #005903;
+        width: 90%;
+        height: 60px;
+        margin: auto;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        padding-bottom: 2px;
+        overflow: hidden;
+
+    }
+
+        #FiveSevenHandgunSection_HeadingDiv_TitleDiv {
+          border: 2px solid purple;
+          width: 78%;
+          height: 65px;
+          background: black;
+          margin: auto;
+        }
+
+
+        
+
+
+        
+
+        
+
+
+
+        #FiveSevenHandgunSection_HeadingDiv_TitleDiv_h1Box {
+          border: 2px solid red;
+          background-color: #0e5701;
+          
+        
+          width: 60%;
+        
+          height: 50px;
+        
+          margin-top: 2.5px;
+          margin-left: auto;
+          margin-right: auto;
+        
+          }
+
+
+
+    #FiveSevenHandgunSection_HeadingDiv_TitleDiv_h1Box h1 {
+      
+      font-family: 'Courier New', Courier, monospace;
+      color: #ffda85;
+      margin-top: auto;
+      margin-bottom: auto;
+      padding-top: 10px;
+      
+      text-align: center;
+      
+      
+      }
+
+
+    .FiveSevenHandgunSection_imageDiv {
+      border: 3px solid purple;
+      width: 98%;
+      margin: auto;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      overflow: hidden;
+  
+    }
+  
+    .FiveSevenHandgunSection_imageDiv img {
+      width: 100%;
+    }
+
+
+
+    #F22Section{
+      margin-top: 5px;
+        ;
+        width: 47%;
+        margin-left: 10px;
+        margin-top: 10px;
+        border: 2px solid blue;
+        float: left;
+
+
+    }
+
+
+        #F22Section_HeadingDiv {
+          border: 2px solid #7d026f;
+          background-color: slategray;
+          width: 90%;
+          height: 65px;
+          margin: auto;
+          margin-bottom: 2px;
+          margin-top: 5px;
+          padding-bottom: 2px;
+          overflow: hidden;
+    
+    
+        }
+    
+    
+    
+        #F22Section_HeadingDiv_TitleDiv {
+          border: 2px solid purple;
+          width: 78%;
+          height: 65px;
+          background-color: black;
+          margin: auto;
+    
+        }
+    
+    
+        #F22Section_HeadingDiv_TitleDiv_h1Box {
+          border: 2px solid lawngreen;
+          background-color: black;
+          ;
+          width: 60%;
+          ;
+          height: 50px;
+    
+          margin-top: 5px;
+          margin-left: auto;
+          margin-right: auto;
+    
+    
+        }
+    
+        #F22Section_HeadingDiv_TitleDiv_h1Box h1 {
+          font-family: 'Courier New', Courier, monospace;
+          color: lawngreen;
+          margin-top: auto;
+          margin-bottom: auto;
+          padding-top: 10px;
+          text-align: center;
+    
+    
+        }
+
+
+        .F22Section_imageDiv{
+          border: 3px solid purple;
+            width: 98%;
+            margin: auto;
+            margin-top: 8px;
+            margin-bottom: 8px;
+
+        }
+
+
+        .F22Section_imageDiv img{
+          width: 100%;;
+        }
+
+
+
+}
+
+/*END OF CGI PAGE STYLES*/

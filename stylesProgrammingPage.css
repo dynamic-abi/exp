@@ -1,0 +1,135 @@
+/*START OF PROGRAMMING PAGE*/
+
+@media only screen and (max-width: 1100px){
+
+  .programDesc{
+
+    border:1.5px solid blue;
+    margin: 5%;
+  }
+
+  .programDesc h2{
+    font-family: monospace;
+    text-align: center;
+  }
+
+  .programDesc h4{
+    margin:8px;
+  }
+
+  .programDesc p{
+    margin: 8px;
+  }
+
+
+  .programDesc button{
+    border: 1.5px solid orange;
+    background-color: orange;
+    display: block;
+    margin: auto;
+  }
+
+
+
+
+  .programmingPageOuterWrapper{
+    border: 2px solid red;
+  }
+
+
+
+  #ruffEngineDC1StartingNavGrid{
+    border: 2px solid yellow;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+
+  
+
+
+
+
+
+}
+
+
+
+/******************************************************************/
+
+
+@media only screen and (min-width: 1100px){
+
+
+
+
+
+
+
+  .programDesc{
+
+    border:1.5px solid blue;
+    margin: 5%;
+  }
+
+  .programDesc h2{
+    font-family: monospace;
+    text-align: center;
+  }
+
+  .programDesc h4{
+    margin:8px;
+  }
+
+  .programDesc p{
+    margin: 8px;
+  }
+
+
+  .programDesc button{
+    border: 1.5px solid orange;
+    background-color: orange;
+    display: block;
+    margin: auto;
+  }
+
+
+
+
+  .programmingPageOuterWrapper{
+    width: 70%;
+    border: 2px solid red;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+
+
+
+
+
+    #ruffEngineDC1StartingNavGrid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/*END OF PROGRAMMING PAGE*/

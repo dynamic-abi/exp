@@ -1,0 +1,95 @@
+
+body{background-color: black; color: white;}
+
+/*START OF UNIVERSAL STYLES*/
+
+@media only screen and (max-width: 1100px){
+
+  .navbar{display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        border: 3px solid red;
+
+         font-size: 1.0em; color: red;
+         font-family: impact;
+         margin-left: 3px;
+         margin-right: 3px;
+         padding-top:3px;
+         padding-bottom: 3px;
+
+         background: repeating-linear-gradient(45deg, #000000, #000000 10px, #bd0900 10px, #bd0900 20px); margin-top: 10px;
+
+       }
+
+
+
+.navbar a{color: #fc3200;  margin-right: 2px; margin-left: 2px;
+
+          padding-top: 5px;
+          padding-bottom: 5px;
+          padding-left: 5px;
+          padding-right: 5px;
+          margin:2px;
+          flex: 1;
+          text-align: center;
+          background-color: black; border: 2px solid orange;}
+
+
+
+.mainLogo{
+   border: 1px solid transparent;
+   display: block;
+   text-align: center;
+
+ }
+
+
+}
+
+
+@media only screen and (min-width: 1100px){
+
+.navbar{display: flex;
+      flex-direction: row;
+      align-items: stretch;
+      border: 2px solid red;
+
+       font-size: 1.0em; color: red;
+       font-family: impact;
+       margin-left: 4px;
+       margin-right: 4px;
+       padding-top:4px;
+       padding-bottom: 4px;
+
+       background: repeating-linear-gradient(45deg, #000000, #000000 10px, #bd0900 10px, #bd0900 20px); margin-top: 10px;
+
+     }
+
+
+
+.navbar a{color: #fc3200;  margin-right: 2px; margin-left: 2px;
+        padding:3px;
+        margin:2px;
+        flex: 1;
+        text-align: center;
+        background-color: black; border: 2px solid orange;}
+
+
+/*
+.mainLogo{ display: flex;
+   justify-content: center;
+ }
+ */
+
+
+ .mainLogo{
+    border: 1px solid transparent;
+    display: block;
+    text-align: center;
+
+  }
+
+
+}
+
+/*END OF UNIVERSAL STYLES*/
