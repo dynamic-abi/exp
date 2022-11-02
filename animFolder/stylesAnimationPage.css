@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+/*START OF CGI PAGE STYLES*/
+
+
+@media only screen and (max-width: 1100px){
+
+  
+
+
+
+}
+
+
+@media only screen and (min-width: 1100px){
+
+ 
+
+
+
+#BuzzLightyearContainer{
+    border: 2px solid purple;
+    width: 50%;
+    float: left;
+}
+
+
+#ShuttleContainer{
+
+    border: 2px solid green;
+    width: 49%;
+    overflow: hidden;
+    float: right;
+}
+
+
+
+
+}
+
+/*END OF CGI PAGE STYLES*/

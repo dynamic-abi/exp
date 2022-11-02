@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+              "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="26.6667in" height="15in"
+     viewBox="0 0 1920 1080">
+  <path id="LeftWing_Parent_StripeContainer_StripesActualContainer"
+        fill="none" stroke="black" stroke-width="1"
+        d="M 723.43,366.70
+           C 723.43,366.70 719.62,455.88 719.62,455.88
+             719.62,455.88 539.38,481.00 539.38,481.00
+             539.38,481.00 545.25,407.75 545.25,407.75
+             545.25,407.75 550.14,399.44 550.14,399.44
+             550.14,399.44 723.43,366.70 723.43,366.70 Z" />
+</svg>

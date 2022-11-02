@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+              "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="26.6667in" height="15in"
+     viewBox="0 0 1920 1080">
+  <path id="LeftWing_LightContainer_ActualLight"
+        fill="none" stroke="black" stroke-width="1"
+        d="M 234.73,487.92
+           C 234.74,487.13 234.92,486.00 235.00,485.38
+             234.88,485.25 244.12,445.88 244.12,445.88
+             254.73,414.27 278.50,416.26 286.78,445.48
+             286.97,445.31 288.13,448.87 289.17,453.52
+             289.91,456.10 290.41,459.30 290.91,462.57
+             292.29,474.77 293.53,489.75 292.97,490.68
+             291.56,499.28 238.87,500.57 234.73,487.92 Z" />
+</svg>
